@@ -1,4 +1,6 @@
 # 0x16. C - Simple Shell
+![image](https://user-images.githubusercontent.com/105589308/201437173-b43a0c79-4bc2-477c-96f0-efc33b093235.png)
+
 
 ```sh
      _____       _                     __    _____ _          _ _ 
@@ -8,7 +10,6 @@
    | |__| | (_| | ||  __/\__ \ | (_) | |    ____) | | | |  __/ | |
     \_____|\__,_|\__\___||___/  \___/|_|   |_____/|_| |_|\___|_|_|
 ```
-![image](https://user-images.githubusercontent.com/105589308/201345810-e5b660eb-873b-47c0-a7ab-90b649007c3c.png)
 <details>
 <summary>The Gates of Shell by Spencer Cheng, featuring Julien Barbier</summary>
 <img src="https://user-images.githubusercontent.com/29776892/129798799-6f730688-8728-49ed-b01b-13bec0fa2896.jpeg">
@@ -60,31 +61,6 @@ $
 ```
 ---
 
-## Example
-
-![example](https://media.giphy.com/media/cC9jj6fr8m5SZ56Z2l/giphy.gif)
-
----
-
-## Files
-
-File|Description
----|---
-[main.c](./main.c)|entry point for shell
-[shell.c](./shell.c)|executes the shell
-[shell.h](./shell.h)|header
-[builtins.c](./builtins.c)|built-in functions
-[helpers.c](./helpers.c)|helper functions
-[extraneous.c](./extraneous.c)|more helper functions
-[_getenv.c](./_getenv.c)|gets inputted env
-[search_cwd.c](./search_cwd.c)|gets current working dir
-[find_path.c](./find_path.c)|finds PATH
-[bridge.c](./bridge.c)|checks if builtin or not
-[execute.c](./execute.c)|executes builtin or binary
-[man_1_simple_shell](./man_1_simple_shell)|man page
-
----
-
 ## Project Requirements
 - All your files will be compiled on Ubuntu 14.04 LTS
 - Your C programs and functions will be compiled with gcc 4.8.4 using the flags `-Wall -Werror -Wextra and -pedantic`
@@ -94,47 +70,6 @@ File|Description
 - No more than 5 functions per file
 - All your header files should be include guarded
 - Use system calls only when you need to
-
----
-
-## Tasks
-
-### 0. README, man, AUTHORS
-* Write a (README)[./README.md]
-* Write a (man)[./man_1_simple_shell] for your shell.
-* You should have an (AUTHORS)[./AUTHORS] file at the root of your repository, listing all individuals having contributed content to the repository.
-
-### 1. Betty would be proud
-* Write a beautiful code that passes the Betty checks
-
-### 2. Simple shell 0.1
-* Write a UNIX command line interpreter.
-* Your Shell should:
-	- Display a prompt and wait for the user to type a command. A command line always ends with a new line.
-	- The prompt is displayed again each time a command has been executed.
-	- The command lines are simple, no semicolons, no pipes, no redirections or any other advanced features.
-	- The command lines are made only of one word. No arguments will be passed to programs.
-	- If an executable cannot be found, print an error message and display the prompt again.
-	- Handle errors.
-	- You have to handle the "end of file" condition (Ctrl+D)
-
-### 3. Simple shell 0.2
-* Handle command lines with arguments
-
-### 4. Simple shell 0.3
-* Handle the PATH
-
-### 5. Simple shell 0.4
-* Implement the exit built-in, that exits the shell
-* Usage: exit
-* You dont have to handle any argument to the built-in exit
-
-### 6. Simple shell 1.0
-* Implement the env built-in, that prints the current environment
-
-### 7. What happens when you type ls -l in the shell
-* Blog:
-	- [Medium](https://medium.com/@antisyllogism/what-happens-when-you-type-ls-l-in-the-shell-21a089cf0eb4)
 
 ---
 
@@ -208,7 +143,11 @@ File|Description
 </details>
 
 ## Authors
+- Charles Obimnaeto Egesionu :: [IamNaeto](https://github.com/IamNaeto)
+- Jane Nginika :: [Nginika](https://github.com/Nginika)
 
-- [Charles Obimnaeto Egesionu](https://github.com/IamNaeto)
-
-- [Jane Nginika](https://github.com/Nginika)
+## Acknowledgments
+- Our fellow cohort members.
+- The creators of the C language.
+- Our software engineer-in-residence.
+- Betty, Alx Holberton.
