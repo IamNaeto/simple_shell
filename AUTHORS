@@ -1,4 +1,5 @@
-This files lists all individuals having contributed content to the repository
+# This file lists all individuals having contributed content to the repository.
+# For how it is generated, see `hack/generate-authors.sh`.
 
-- Nginika Jane Nginika <nginikaugochukwu@gmail.com>
-- Charles Obimnaeto Egesionu <egesionucharlesobimnaeto@gmail.com>
+Charles Obimnaeto Egesionu <egesionucharlesobimnaeto@gmail.com>
+Nginika <nginikaugochukwu@gmail.com>
