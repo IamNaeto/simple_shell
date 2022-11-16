@@ -1,7 +1,7 @@
 # 0x16. C - Simple Shell
 
 ```sh
-     _____       _                     __    _____ _          _ _ 
+     _____       _                     __    _____ _          _ _
     / ____|     | |                   / _|  / ____| |        | | |
    | |  __  __ _| |_ ___  ___    ___ | |_  | (___ | |__   ___| | |
    | | |_ |/ _` | __/ _ \/ __|  / _ \|  _|  \___ \| '_ \ / _ \ | |
@@ -100,6 +100,7 @@ File|Description
 ## Tasks
 
 ### 0. README, man, AUTHORS
+A
 * Write a (README)[./README.md]
 * Write a (man)[./man_1_simple_shell] for your shell.
 * You should have an (AUTHORS)[./AUTHORS] file at the root of your repository, listing all individuals having contributed content to the repository.
@@ -115,10 +116,12 @@ File|Description
 	- The command lines are simple, no semicolons, no pipes, no redirections or any other advanced features.
 	- The command lines are made only of one word. No arguments will be passed to programs.
 	- If an executable cannot be found, print an error message and display the prompt again.
+A
 	- Handle errors.
 	- You have to handle the "end of file" condition (Ctrl+D)
 
 ### 3. Simple shell 0.2
+A
 * Handle command lines with arguments
 
 ### 4. Simple shell 0.3
@@ -134,6 +137,7 @@ File|Description
 
 ### 7. What happens when you type ls -l in the shell
 * Blog:
+A
 	- [Medium](https://medium.com/@antisyllogism/what-happens-when-you-type-ls-l-in-the-shell-21a089cf0eb4)
 
 ---
@@ -147,9 +151,11 @@ File|Description
 + `closedir` (man 3 closedir)
 + `execve` (man 2 execve)
 + `exit` (man 3 exit)
+B
 + `\_exit` (man 2 \_exit)
 + `fflush` (man 3 fflush)
 + `fork` (man 2 fork)
+B
 + `free`(man 3 free)
 + `getcwd` (man 3 getcwd)
 + `getline` (man 3 getline)
