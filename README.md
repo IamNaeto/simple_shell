@@ -1,4 +1,4 @@
-# 0x16. C - Simple Shell
+# 0x16. C - Simple Shell Project
 ![image](https://user-images.githubusercontent.com/105589308/201437173-b43a0c79-4bc2-477c-96f0-efc33b093235.png)
 
 
